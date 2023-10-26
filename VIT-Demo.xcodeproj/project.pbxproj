@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC70FEBE2AEAB4B70005134D /* VIT_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FEBD2AEAB4B70005134D /* VIT_DemoApp.swift */; };
+		EC70FEC22AEAB4B80005134D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC70FEC12AEAB4B80005134D /* Assets.xcassets */; };
+		EC70FEC62AEAB4B80005134D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC70FEC52AEAB4B80005134D /* Preview Assets.xcassets */; };
+		EC70FF042AEABA2C0005134D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FEFA2AEABA2C0005134D /* ErrorView.swift */; };
+		EC70FF052AEABA2C0005134D /* ControlUnitDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FEFC2AEABA2C0005134D /* ControlUnitDetailsView.swift */; };
+		EC70FF062AEABA2C0005134D /* ControlUnitDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FEFD2AEABA2C0005134D /* ControlUnitDetailsViewModel.swift */; };
+		EC70FF072AEABA2C0005134D /* ControlUnitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FEFF2AEABA2C0005134D /* ControlUnitsViewModel.swift */; };
+		EC70FF082AEABA2C0005134D /* ControlUnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF002AEABA2C0005134D /* ControlUnitsView.swift */; };
+		EC70FF092AEABA2C0005134D /* VehicleDataLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF022AEABA2C0005134D /* VehicleDataLoading.swift */; };
+		EC70FF0A2AEABA2C0005134D /* ControlUnitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF032AEABA2C0005134D /* ControlUnitData.swift */; };
+		EC70FF0D2AEABA960005134D /* VehicleAPI in Frameworks */ = {isa = PBXBuildFile; productRef = EC70FF0C2AEABA960005134D /* VehicleAPI */; };
+		EC70FF182AEABABB0005134D /* VoltButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF102AEABABB0005134D /* VoltButton.swift */; };
+		EC70FF192AEABABB0005134D /* VoltButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF112AEABABB0005134D /* VoltButtonStyle.swift */; };
+		EC70FF1A2AEABABB0005134D /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF132AEABABB0005134D /* InfoCardView.swift */; };
+		EC70FF1B2AEABABB0005134D /* VoltError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF142AEABABB0005134D /* VoltError.swift */; };
+		EC70FF1C2AEABABB0005134D /* VoltText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF162AEABABB0005134D /* VoltText.swift */; };
+		EC70FF1D2AEABABB0005134D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF172AEABABB0005134D /* LoadingView.swift */; };
+		EC70FF5E2AEABCC10005134D /* VehicleDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF592AEABCC10005134D /* VehicleDataLoaderTests.swift */; };
+		EC70FF5F2AEABCC10005134D /* ControlUnitDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF5B2AEABCC10005134D /* ControlUnitDetailsViewModelTests.swift */; };
+		EC70FF602AEABCC10005134D /* ControlUnitsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF5D2AEABCC10005134D /* ControlUnitsViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC70FECC2AEAB4B80005134D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC70FEB22AEAB4B70005134D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC70FEB92AEAB4B70005134D;
+			remoteInfo = "VIT-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC70FEBA2AEAB4B70005134D /* VIT-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIT-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC70FEBD2AEAB4B70005134D /* VIT_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIT_DemoApp.swift; sourceTree = "<group>"; };
+		EC70FEC12AEAB4B80005134D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC70FEC32AEAB4B80005134D /* VIT_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VIT_Demo.entitlements; sourceTree = "<group>"; };
+		EC70FEC52AEAB4B80005134D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC70FECB2AEAB4B80005134D /* VIT-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIT-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC70FEFA2AEABA2C0005134D /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		EC70FEFC2AEABA2C0005134D /* ControlUnitDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitDetailsView.swift; sourceTree = "<group>"; };
+		EC70FEFD2AEABA2C0005134D /* ControlUnitDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitDetailsViewModel.swift; sourceTree = "<group>"; };
+		EC70FEFF2AEABA2C0005134D /* ControlUnitsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitsViewModel.swift; sourceTree = "<group>"; };
+		EC70FF002AEABA2C0005134D /* ControlUnitsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitsView.swift; sourceTree = "<group>"; };
+		EC70FF022AEABA2C0005134D /* VehicleDataLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleDataLoading.swift; sourceTree = "<group>"; };
+		EC70FF032AEABA2C0005134D /* ControlUnitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitData.swift; sourceTree = "<group>"; };
+		EC70FF102AEABABB0005134D /* VoltButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltButton.swift; sourceTree = "<group>"; };
+		EC70FF112AEABABB0005134D /* VoltButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltButtonStyle.swift; sourceTree = "<group>"; };
+		EC70FF132AEABABB0005134D /* InfoCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
+		EC70FF142AEABABB0005134D /* VoltError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltError.swift; sourceTree = "<group>"; };
+		EC70FF162AEABABB0005134D /* VoltText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltText.swift; sourceTree = "<group>"; };
+		EC70FF172AEABABB0005134D /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EC70FF592AEABCC10005134D /* VehicleDataLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleDataLoaderTests.swift; sourceTree = "<group>"; };
+		EC70FF5B2AEABCC10005134D /* ControlUnitDetailsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		EC70FF5D2AEABCC10005134D /* ControlUnitsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitsViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC70FEB72AEAB4B70005134D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC70FF0D2AEABA960005134D /* VehicleAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC70FEC82AEAB4B80005134D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC70FEB12AEAB4B70005134D = {
+			isa = PBXGroup;
+			children = (
+				EC70FEBC2AEAB4B70005134D /* VIT-Demo */,
+				EC70FECE2AEAB4B80005134D /* VIT-DemoTests */,
+				EC70FEBB2AEAB4B70005134D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC70FEBB2AEAB4B70005134D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FEBA2AEAB4B70005134D /* VIT-Demo.app */,
+				EC70FECB2AEAB4B80005134D /* VIT-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC70FEBC2AEAB4B70005134D /* VIT-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF0E2AEABABB0005134D /* Components */,
+				EC70FEF82AEABA2C0005134D /* Modules */,
+				EC70FEBD2AEAB4B70005134D /* VIT_DemoApp.swift */,
+				EC70FEC12AEAB4B80005134D /* Assets.xcassets */,
+				EC70FEC32AEAB4B80005134D /* VIT_Demo.entitlements */,
+				EC70FEC42AEAB4B80005134D /* Preview Content */,
+			);
+			path = "VIT-Demo";
+			sourceTree = "<group>";
+		};
+		EC70FEC42AEAB4B80005134D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FEC52AEAB4B80005134D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC70FECE2AEAB4B80005134D /* VIT-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF572AEABCC10005134D /* Modules */,
+			);
+			path = "VIT-DemoTests";
+			sourceTree = "<group>";
+		};
+		EC70FEF82AEABA2C0005134D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FEF92AEABA2C0005134D /* ErrorState */,
+				EC70FEFB2AEABA2C0005134D /* ControlUnitDetailsView */,
+				EC70FEFE2AEABA2C0005134D /* OverviewView */,
+				EC70FF012AEABA2C0005134D /* DataLoader */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EC70FEF92AEABA2C0005134D /* ErrorState */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FEFA2AEABA2C0005134D /* ErrorView.swift */,
+			);
+			path = ErrorState;
+			sourceTree = "<group>";
+		};
+		EC70FEFB2AEABA2C0005134D /* ControlUnitDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FEFC2AEABA2C0005134D /* ControlUnitDetailsView.swift */,
+				EC70FEFD2AEABA2C0005134D /* ControlUnitDetailsViewModel.swift */,
+			);
+			path = ControlUnitDetailsView;
+			sourceTree = "<group>";
+		};
+		EC70FEFE2AEABA2C0005134D /* OverviewView */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FEFF2AEABA2C0005134D /* ControlUnitsViewModel.swift */,
+				EC70FF002AEABA2C0005134D /* ControlUnitsView.swift */,
+			);
+			path = OverviewView;
+			sourceTree = "<group>";
+		};
+		EC70FF012AEABA2C0005134D /* DataLoader */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF022AEABA2C0005134D /* VehicleDataLoading.swift */,
+				EC70FF032AEABA2C0005134D /* ControlUnitData.swift */,
+			);
+			path = DataLoader;
+			sourceTree = "<group>";
+		};
+		EC70FF0E2AEABABB0005134D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF0F2AEABABB0005134D /* Buttons */,
+				EC70FF122AEABABB0005134D /* InfoCard */,
+				EC70FF142AEABABB0005134D /* VoltError.swift */,
+				EC70FF152AEABABB0005134D /* Text */,
+				EC70FF172AEABABB0005134D /* LoadingView.swift */,
+			);
+			name = Components;
+			path = "../../untitled folder/TestApp/TestApp/Components";
+			sourceTree = "<group>";
+		};
+		EC70FF0F2AEABABB0005134D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF102AEABABB0005134D /* VoltButton.swift */,
+				EC70FF112AEABABB0005134D /* VoltButtonStyle.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EC70FF122AEABABB0005134D /* InfoCard */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF132AEABABB0005134D /* InfoCardView.swift */,
+			);
+			path = InfoCard;
+			sourceTree = "<group>";
+		};
+		EC70FF152AEABABB0005134D /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF162AEABABB0005134D /* VoltText.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		EC70FF572AEABCC10005134D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF582AEABCC10005134D /* DataLoaderTests */,
+				EC70FF5A2AEABCC10005134D /* ControlUnitDetailsView */,
+				EC70FF5C2AEABCC10005134D /* ControlUnitsView */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EC70FF582AEABCC10005134D /* DataLoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF592AEABCC10005134D /* VehicleDataLoaderTests.swift */,
+			);
+			path = DataLoaderTests;
+			sourceTree = "<group>";
+		};
+		EC70FF5A2AEABCC10005134D /* ControlUnitDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF5B2AEABCC10005134D /* ControlUnitDetailsViewModelTests.swift */,
+			);
+			path = ControlUnitDetailsView;
+			sourceTree = "<group>";
+		};
+		EC70FF5C2AEABCC10005134D /* ControlUnitsView */ = {
+			isa = PBXGroup;
+			children = (
+				EC70FF5D2AEABCC10005134D /* ControlUnitsViewModelTests.swift */,
+			);
+			path = ControlUnitsView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC70FEB92AEAB4B70005134D /* VIT-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC70FEDF2AEAB4B80005134D /* Build configuration list for PBXNativeTarget "VIT-Demo" */;
+			buildPhases = (
+				EC70FEB62AEAB4B70005134D /* Sources */,
+				EC70FEB72AEAB4B70005134D /* Frameworks */,
+				EC70FEB82AEAB4B70005134D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VIT-Demo";
+			packageProductDependencies = (
+				EC70FF0C2AEABA960005134D /* VehicleAPI */,
+			);
+			productName = "VIT-Demo";
+			productReference = EC70FEBA2AEAB4B70005134D /* VIT-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC70FECA2AEAB4B80005134D /* VIT-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC70FEE22AEAB4B80005134D /* Build configuration list for PBXNativeTarget "VIT-DemoTests" */;
+			buildPhases = (
+				EC70FEC72AEAB4B80005134D /* Sources */,
+				EC70FEC82AEAB4B80005134D /* Frameworks */,
+				EC70FEC92AEAB4B80005134D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC70FECD2AEAB4B80005134D /* PBXTargetDependency */,
+			);
+			name = "VIT-DemoTests";
+			productName = "VIT-DemoTests";
+			productReference = EC70FECB2AEAB4B80005134D /* VIT-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC70FEB22AEAB4B70005134D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EC70FEB92AEAB4B70005134D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EC70FECA2AEAB4B80005134D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EC70FEB92AEAB4B70005134D;
+					};
+				};
+			};
+			buildConfigurationList = EC70FEB52AEAB4B70005134D /* Build configuration list for PBXProject "VIT-Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC70FEB12AEAB4B70005134D;
+			packageReferences = (
+				EC70FF0B2AEABA960005134D /* XCRemoteSwiftPackageReference "main" */,
+			);
+			productRefGroup = EC70FEBB2AEAB4B70005134D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC70FEB92AEAB4B70005134D /* VIT-Demo */,
+				EC70FECA2AEAB4B80005134D /* VIT-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC70FEB82AEAB4B70005134D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC70FEC62AEAB4B80005134D /* Preview Assets.xcassets in Resources */,
+				EC70FEC22AEAB4B80005134D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC70FEC92AEAB4B80005134D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC70FEB62AEAB4B70005134D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC70FF1A2AEABABB0005134D /* InfoCardView.swift in Sources */,
+				EC70FF1C2AEABABB0005134D /* VoltText.swift in Sources */,
+				EC70FF192AEABABB0005134D /* VoltButtonStyle.swift in Sources */,
+				EC70FF052AEABA2C0005134D /* ControlUnitDetailsView.swift in Sources */,
+				EC70FEBE2AEAB4B70005134D /* VIT_DemoApp.swift in Sources */,
+				EC70FF1B2AEABABB0005134D /* VoltError.swift in Sources */,
+				EC70FF182AEABABB0005134D /* VoltButton.swift in Sources */,
+				EC70FF0A2AEABA2C0005134D /* ControlUnitData.swift in Sources */,
+				EC70FF1D2AEABABB0005134D /* LoadingView.swift in Sources */,
+				EC70FF042AEABA2C0005134D /* ErrorView.swift in Sources */,
+				EC70FF072AEABA2C0005134D /* ControlUnitsViewModel.swift in Sources */,
+				EC70FF062AEABA2C0005134D /* ControlUnitDetailsViewModel.swift in Sources */,
+				EC70FF082AEABA2C0005134D /* ControlUnitsView.swift in Sources */,
+				EC70FF092AEABA2C0005134D /* VehicleDataLoading.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC70FEC72AEAB4B80005134D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC70FF602AEABCC10005134D /* ControlUnitsViewModelTests.swift in Sources */,
+				EC70FF5F2AEABCC10005134D /* ControlUnitDetailsViewModelTests.swift in Sources */,
+				EC70FF5E2AEABCC10005134D /* VehicleDataLoaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC70FECD2AEAB4B80005134D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC70FEB92AEAB4B70005134D /* VIT-Demo */;
+			targetProxy = EC70FECC2AEAB4B80005134D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC70FEDD2AEAB4B80005134D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC70FEDE2AEAB4B80005134D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EC70FEE02AEAB4B80005134D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VIT-Demo/VIT_Demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VIT-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZLVSZF25Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkristopaitis.testing.VIT-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC70FEE12AEAB4B80005134D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VIT-Demo/VIT_Demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VIT-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZLVSZF25Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkristopaitis.testing.VIT-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC70FEE32AEAB4B80005134D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZLVSZF25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkristopaitis.testing.VIT-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIT-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VIT-Demo";
+			};
+			name = Debug;
+		};
+		EC70FEE42AEAB4B80005134D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZLVSZF25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkristopaitis.testing.VIT-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIT-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VIT-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC70FEB52AEAB4B70005134D /* Build configuration list for PBXProject "VIT-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC70FEDD2AEAB4B80005134D /* Debug */,
+				EC70FEDE2AEAB4B80005134D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC70FEDF2AEAB4B80005134D /* Build configuration list for PBXNativeTarget "VIT-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC70FEE02AEAB4B80005134D /* Debug */,
+				EC70FEE12AEAB4B80005134D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC70FEE22AEAB4B80005134D /* Build configuration list for PBXNativeTarget "VIT-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC70FEE32AEAB4B80005134D /* Debug */,
+				EC70FEE42AEAB4B80005134D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC70FF0B2AEABA960005134D /* XCRemoteSwiftPackageReference "main" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://bitbucket.org/voltas-it/ios-practical-task/src/main/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC70FF0C2AEABA960005134D /* VehicleAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC70FF0B2AEABA960005134D /* XCRemoteSwiftPackageReference "main" */;
+			productName = VehicleAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC70FEB22AEAB4B70005134D /* Project object */;
+}
