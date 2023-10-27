@@ -13,7 +13,7 @@ struct ErrorView: View {
     private var action: (() -> Void)?
 
     init(
-        title: String = "Failled",
+        title: String = "Failed",
         message: String = "Someting failled. Please try again",
         action: (() -> Void)? = nil
     ) {

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4F99FA2AEBF7D200464204 /* VoltButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F99F22AEBF7D200464204 /* VoltButton.swift */; };
+		EC4F99FB2AEBF7D200464204 /* VoltButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F99F32AEBF7D200464204 /* VoltButtonStyle.swift */; };
+		EC4F99FC2AEBF7D200464204 /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F99F52AEBF7D200464204 /* InfoCardView.swift */; };
+		EC4F99FD2AEBF7D200464204 /* VoltError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F99F62AEBF7D200464204 /* VoltError.swift */; };
+		EC4F99FE2AEBF7D200464204 /* VoltText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F99F82AEBF7D200464204 /* VoltText.swift */; };
+		EC4F99FF2AEBF7D200464204 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F99F92AEBF7D200464204 /* LoadingView.swift */; };
 		EC70FEBE2AEAB4B70005134D /* VIT_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FEBD2AEAB4B70005134D /* VIT_DemoApp.swift */; };
 		EC70FEC22AEAB4B80005134D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC70FEC12AEAB4B80005134D /* Assets.xcassets */; };
 		EC70FEC62AEAB4B80005134D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC70FEC52AEAB4B80005134D /* Preview Assets.xcassets */; };
@@ -18,12 +24,6 @@
 		EC70FF092AEABA2C0005134D /* VehicleDataLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF022AEABA2C0005134D /* VehicleDataLoading.swift */; };
 		EC70FF0A2AEABA2C0005134D /* ControlUnitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF032AEABA2C0005134D /* ControlUnitData.swift */; };
 		EC70FF0D2AEABA960005134D /* VehicleAPI in Frameworks */ = {isa = PBXBuildFile; productRef = EC70FF0C2AEABA960005134D /* VehicleAPI */; };
-		EC70FF182AEABABB0005134D /* VoltButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF102AEABABB0005134D /* VoltButton.swift */; };
-		EC70FF192AEABABB0005134D /* VoltButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF112AEABABB0005134D /* VoltButtonStyle.swift */; };
-		EC70FF1A2AEABABB0005134D /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF132AEABABB0005134D /* InfoCardView.swift */; };
-		EC70FF1B2AEABABB0005134D /* VoltError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF142AEABABB0005134D /* VoltError.swift */; };
-		EC70FF1C2AEABABB0005134D /* VoltText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF162AEABABB0005134D /* VoltText.swift */; };
-		EC70FF1D2AEABABB0005134D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF172AEABABB0005134D /* LoadingView.swift */; };
 		EC70FF5E2AEABCC10005134D /* VehicleDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF592AEABCC10005134D /* VehicleDataLoaderTests.swift */; };
 		EC70FF5F2AEABCC10005134D /* ControlUnitDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF5B2AEABCC10005134D /* ControlUnitDetailsViewModelTests.swift */; };
 		EC70FF602AEABCC10005134D /* ControlUnitsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70FF5D2AEABCC10005134D /* ControlUnitsViewModelTests.swift */; };
@@ -40,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC4F99F22AEBF7D200464204 /* VoltButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltButton.swift; sourceTree = "<group>"; };
+		EC4F99F32AEBF7D200464204 /* VoltButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltButtonStyle.swift; sourceTree = "<group>"; };
+		EC4F99F52AEBF7D200464204 /* InfoCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
+		EC4F99F62AEBF7D200464204 /* VoltError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltError.swift; sourceTree = "<group>"; };
+		EC4F99F82AEBF7D200464204 /* VoltText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltText.swift; sourceTree = "<group>"; };
+		EC4F99F92AEBF7D200464204 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		EC70FEBA2AEAB4B70005134D /* VIT-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIT-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC70FEBD2AEAB4B70005134D /* VIT_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIT_DemoApp.swift; sourceTree = "<group>"; };
 		EC70FEC12AEAB4B80005134D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,12 +59,6 @@
 		EC70FF002AEABA2C0005134D /* ControlUnitsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitsView.swift; sourceTree = "<group>"; };
 		EC70FF022AEABA2C0005134D /* VehicleDataLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleDataLoading.swift; sourceTree = "<group>"; };
 		EC70FF032AEABA2C0005134D /* ControlUnitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitData.swift; sourceTree = "<group>"; };
-		EC70FF102AEABABB0005134D /* VoltButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltButton.swift; sourceTree = "<group>"; };
-		EC70FF112AEABABB0005134D /* VoltButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltButtonStyle.swift; sourceTree = "<group>"; };
-		EC70FF132AEABABB0005134D /* InfoCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
-		EC70FF142AEABABB0005134D /* VoltError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltError.swift; sourceTree = "<group>"; };
-		EC70FF162AEABABB0005134D /* VoltText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltText.swift; sourceTree = "<group>"; };
-		EC70FF172AEABABB0005134D /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		EC70FF592AEABCC10005134D /* VehicleDataLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleDataLoaderTests.swift; sourceTree = "<group>"; };
 		EC70FF5B2AEABCC10005134D /* ControlUnitDetailsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitDetailsViewModelTests.swift; sourceTree = "<group>"; };
 		EC70FF5D2AEABCC10005134D /* ControlUnitsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlUnitsViewModelTests.swift; sourceTree = "<group>"; };
@@ -83,6 +83,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC4F99F02AEBF7D200464204 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F99F12AEBF7D200464204 /* Buttons */,
+				EC4F99F42AEBF7D200464204 /* InfoCard */,
+				EC4F99F62AEBF7D200464204 /* VoltError.swift */,
+				EC4F99F72AEBF7D200464204 /* Text */,
+				EC4F99F92AEBF7D200464204 /* LoadingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EC4F99F12AEBF7D200464204 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F99F22AEBF7D200464204 /* VoltButton.swift */,
+				EC4F99F32AEBF7D200464204 /* VoltButtonStyle.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EC4F99F42AEBF7D200464204 /* InfoCard */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F99F52AEBF7D200464204 /* InfoCardView.swift */,
+			);
+			path = InfoCard;
+			sourceTree = "<group>";
+		};
+		EC4F99F72AEBF7D200464204 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F99F82AEBF7D200464204 /* VoltText.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
 		EC70FEB12AEAB4B70005134D = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +141,7 @@
 		EC70FEBC2AEAB4B70005134D /* VIT-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				EC70FF0E2AEABABB0005134D /* Components */,
+				EC4F99F02AEBF7D200464204 /* Components */,
 				EC70FEF82AEABA2C0005134D /* Modules */,
 				EC70FEBD2AEAB4B70005134D /* VIT_DemoApp.swift */,
 				EC70FEC12AEAB4B80005134D /* Assets.xcassets */,
@@ -174,44 +211,6 @@
 				EC70FF032AEABA2C0005134D /* ControlUnitData.swift */,
 			);
 			path = DataLoader;
-			sourceTree = "<group>";
-		};
-		EC70FF0E2AEABABB0005134D /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				EC70FF0F2AEABABB0005134D /* Buttons */,
-				EC70FF122AEABABB0005134D /* InfoCard */,
-				EC70FF142AEABABB0005134D /* VoltError.swift */,
-				EC70FF152AEABABB0005134D /* Text */,
-				EC70FF172AEABABB0005134D /* LoadingView.swift */,
-			);
-			name = Components;
-			path = "../../untitled folder/TestApp/TestApp/Components";
-			sourceTree = "<group>";
-		};
-		EC70FF0F2AEABABB0005134D /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				EC70FF102AEABABB0005134D /* VoltButton.swift */,
-				EC70FF112AEABABB0005134D /* VoltButtonStyle.swift */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
-		EC70FF122AEABABB0005134D /* InfoCard */ = {
-			isa = PBXGroup;
-			children = (
-				EC70FF132AEABABB0005134D /* InfoCardView.swift */,
-			);
-			path = InfoCard;
-			sourceTree = "<group>";
-		};
-		EC70FF152AEABABB0005134D /* Text */ = {
-			isa = PBXGroup;
-			children = (
-				EC70FF162AEABABB0005134D /* VoltText.swift */,
-			);
-			path = Text;
 			sourceTree = "<group>";
 		};
 		EC70FF572AEABCC10005134D /* Modules */ = {
@@ -354,20 +353,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC70FF1A2AEABABB0005134D /* InfoCardView.swift in Sources */,
-				EC70FF1C2AEABABB0005134D /* VoltText.swift in Sources */,
-				EC70FF192AEABABB0005134D /* VoltButtonStyle.swift in Sources */,
+				EC4F99FB2AEBF7D200464204 /* VoltButtonStyle.swift in Sources */,
+				EC4F99FD2AEBF7D200464204 /* VoltError.swift in Sources */,
 				EC70FF052AEABA2C0005134D /* ControlUnitDetailsView.swift in Sources */,
 				EC70FEBE2AEAB4B70005134D /* VIT_DemoApp.swift in Sources */,
-				EC70FF1B2AEABABB0005134D /* VoltError.swift in Sources */,
-				EC70FF182AEABABB0005134D /* VoltButton.swift in Sources */,
 				EC70FF0A2AEABA2C0005134D /* ControlUnitData.swift in Sources */,
-				EC70FF1D2AEABABB0005134D /* LoadingView.swift in Sources */,
+				EC4F99FF2AEBF7D200464204 /* LoadingView.swift in Sources */,
+				EC4F99FE2AEBF7D200464204 /* VoltText.swift in Sources */,
 				EC70FF042AEABA2C0005134D /* ErrorView.swift in Sources */,
 				EC70FF072AEABA2C0005134D /* ControlUnitsViewModel.swift in Sources */,
 				EC70FF062AEABA2C0005134D /* ControlUnitDetailsViewModel.swift in Sources */,
 				EC70FF082AEABA2C0005134D /* ControlUnitsView.swift in Sources */,
 				EC70FF092AEABA2C0005134D /* VehicleDataLoading.swift in Sources */,
+				EC4F99FC2AEBF7D200464204 /* InfoCardView.swift in Sources */,
+				EC4F99FA2AEBF7D200464204 /* VoltButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
